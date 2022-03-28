@@ -11,7 +11,7 @@
     "yay --needed --nocleanmenu --nodiffmenu -S visual-studio-code-bin ttf-meslo-nerd-font-powerlevel10k oh-my-zsh-git zsh-autosuggestions-git zsh-syntax-highlighting-git zsh-theme-powerlevel10k-git ppd-dell-e525w"
   ],
   "filesystem": "btrfs",
-  "gfx_driver": "VMware / VirtualBox (open-source)",
+  "gfx_driver": "All open-source (default)",
   "harddrives": [
     "/dev/sda"
   ],
@@ -27,11 +27,47 @@
   "ntp": true,
   "packages": [
     "man-db",
-    "man-pages"
+    "man-pages",
+    "plasma-desktop",
+    "plasma-wayland-session",
+    "wireplumber",
+    "phonon-qt5-gstreamer",
+    "gnu-free-fonts",
+    "pipewire-pulse",
+    "pipewire-alsa",
+    "pipewire-jack",
+    "plasma-pa sddm",
+    "sddm-kcm",
+    "konsole",
+    "dolphin",
+    "firefox",
+    "kate",
+    "vim",
+    "breeze-gtk",
+    "kde-gtk-config",
+    "kdeplasma-addons",
+    "plasma-nm",
+    "vlc",
+    "digikam",
+    "ark",
+    "kinfocenter",
+    "kwalletmanager",
+    "gwenview",
+    "kipi-plugins",
+    "spectacle",
+    "okular",
+    "discover",
+    "base-devel",
+    "git",
+    "go",
+    "zsh",
+    "krita",
+    "kdenlive"
 ],
   "profile": "minimal",
   "services": [
-    "docker.service"
+    "docker.service",
+    "sddm.service"
   ],
   "swap": true,
   "sys-encoding": "utf-8",
